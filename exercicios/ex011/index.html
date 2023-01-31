@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML5</title>
+</head>
+<body>
+  <h1>Imagens dinâmicas</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+  <picture>
+    <source media="(max-width: 1050px)" srcset="p.png" type="image/png">
+    <img src="g.png" alt="imagem dinâmica">
+  </picture>
+  <h1>Audio</h1>
+  <p>vamos aprender a reproduzir audios</p> <!--Para colocar imagem pequena e média, coloca-se o media type da imagem pequeno primeiro e da média depois -->
+  <audio preload="metadata" autoplay controls> <!--se colocar auto irá deixar o site lento pois irá carregar o audio todo, none só ira carregar quando o usuario clicar no play, metadata é o ideal pois só carrega dados necessários-->
+    <source src="midia/awkard.mp3" type="audio/mpeg">
+    <p>infelizmente seu navegador não consegue reproduzir audio. <a href="midia/awkard.mp3">Clique aqui para baixa-lo</a></p>
+  </audio> <!--mp3, wav, ogg-->
+</body>
+</html>

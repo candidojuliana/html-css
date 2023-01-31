@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+main{
+  text-align: justify;
+  margin: 70px;
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #01203095;
+}
+body{
+ background-image: linear-gradient(140deg, #9AEBA3, #DAFDBA);
+}
+h1{
+  font-family: 'pacifico';
+  color: #13678A;
+}
+h2{
+  font-family: 'dancing script';
+  color: #45C4B0;
+}
+h3{
+  font-family: 'dancing script';
+  color: #45C4B0;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 20px;
+}
+a{
+  color: #13678A;
+  font-size: large;
+  margin: 70px;
+}
+div {
+  background-color: ;
+}
